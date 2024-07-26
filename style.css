@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    border:1px solid black;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.grid {
+    border:1px solid black;
+}
