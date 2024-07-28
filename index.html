@@ -7,13 +7,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <label for="item">Enter grid size:</label>
-        <input type="number" name="sizeEntry" id="sizeEntry" value="16">
-        <button class="change">Change</button>
+    <h1>Etch a Sketch</h1>
+
+    <div class = "container-t">
+        <div class="container-s">
+            <h4 for="item">Enter grid size: </h4>
+            <input type="number" name="sizeEntry" id="sizeEntry" value="16">
+            <button class="change">Change</button>
+        </div>
+        
+        <div class="container-c">
+            <h4>Color Selector: </h4>
+            <input type="color" id="colorPicker" value="#000000">
+        </div>
     </div>
     
-    <input type="color" id="colorPicker" value="#000000">
     <div class="container"></div>
     
     <script src="javascript.js"></script>
